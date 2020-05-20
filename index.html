@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Lorem Picsum</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="flex__row">
+        <div class="wrap__left">
+          <img src="./image/logo.svg" class="logo" alt="Lorem Picsum logo"/>
+          <h1 class="main__title">Lorem Picsum</h1>
+          <h2 class="subtitle">The Lorem Ipsum for photos</h2>
+          <div class="wrap__left__inner row">
+            <a href="#"><img src="https://cdn4.buysellads.net/uu/1/49556/1564610963-Atlas_Carbon_Ad_3.png"
+                class="wrap__left__link" alt="ads via Carbon" /></a>
+            <div class="carbon__wrap">
+              <a href="#" class="carbon__wrap--text" target="_blank">MongoDB Atlas is the only true global, multi-cloud database service. Try now!</a>
+              <a href="#" class="carbon__poweredby" target="_blank">ads via Carbon</a>
+            </div>
+          </div>
+        </div>
+        <div class="wrap__right">
+          <img src="./image/fly birds.jpg" alt="Blue sky with flying birds" />
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <!-- end of header section -->
+
+  <!-- section to place your desired photos -->
+  <section class="select__image">
+    <div class="container">
+      <div class="image__width__search">
+        <div class="select__image__size">
+          <h2 class="section__title">Easy to use, stylish placeholders</h2>
+          <p>Just add your desired image size (width &amp; height) after our URL, and you'll get a random image.</p>
+        </div>
+        <div class="section__link__link">
+          <p class="break__words">
+            <a class="no__underline" href="#">https://picsum.photos/200/300</a></p>
+        </div>
+        <p>To get a square image, just add the size.</p>
+        <div class="break__words--margin--bottom">
+          <p class="break__words">
+            <a class="no__underline" href="#">https://picsum.photos/200</a></p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- section to place your desired photos -->
+  <!-- get specific image can be displayed section-->
+  
+  <!-- start of row one -->
+  <div class="container">
+    <div class="flex__row">
+      <div class="specific__image__width">
+        <h2>Specific Image</h2>
+        <p>Get a specific image by adding"<code>/id{image}</code>to the start of the url.</p>
+        <pre><a class="no__underline__background" href="#">https://picsum.photos/id/237/200/300</a></pre>
+        <p>You can find a list of all the images<a class="no__underline" href="#">here.</a></p>
+      </div>
+      <div class="image__view">
+        <img src="./image/dog.jpg" class="img" alt="a brave dog" />
+      </div>
+
+      <!-- start of row two-->
+      <div class="image__view">
+        <img src="./image/sunset over a sandy hill.jpg" class="img" alt="sunset over sandy hill" />
+      </div>
+
+      <div class="specific__image__width">
+        <h2>Static Random Image</h2>
+        <p>
+          Get the same random image every time based on a seed, by
+          adding<code>/seed/{seed}</code>to the start of the url.
+        </p>
+        <div>
+          <pre><a class="no__underline__background" href="/seed/picsum/200/300">https://picsum.photos/seed/picsum/200/300</a></pre>
+        </div>
+      </div>
+
+      <!-- start of row three-->
+      <div class="specific__image__width">
+        <h2>Grayscale</h2>
+        <p>Get a grayscale image by appending<code>?grayscale</code>to the end of the url.</p>
+        <div>
+          <pre><a class="no__underline" href="/200/300?grayscale">https://picsum.photos/200/300?grayscale</a></pre>
+        </div>
+      </div>
+
+      <div class="image__view">
+        <img src="./image/aminal.jpg" class="img" alt="gray animals on the sand" />
+      </div>
+
+      <!-- start of row -->
+      <div class="image__view">
+        <img src="./image/bar.jpg" class="img" alt="coffee shop" />
+      </div>
+      <div class="specific__image__width">
+        <h2>Blur</h2>
+        <p>Get a blurred image by appending<code>?blur</code>to the end of the url.</p>
+        <pre><a class="no__underline" href="#">https://picsum.photos/id/237/200/300</a></pre>
+        <p>You can adjust the amount of blur by providing a number between<code>1</code> and <code>10</code><a
+            class="no__underline" href="#">here.</a></p>
+        <pre>
+        <a class="no__underline" href="#"
+          >https://picsum.photos/200/300/?blur=2</a></pre>
+      </div>
+
+      <!-- start of row -->
+      <div class="specific__image__width--long">
+        <h2>Advanced Usage</h2>
+        <p>You may combine any of the options above.</p>
+        <p>For example, to get a specific image that is grayscale and blurred.</p>
+
+        <pre><a class="no__underline" href="/id/870/200/300?grayscale&amp;blur=2">https://picsum.photos/id/870/200/300?grayscale&amp;blur=2</a></pre>
+
+        <p>
+          To request multiple images of the same size in your browser, add the
+          <code>random</code> query param to prevent the images from being cached:
+        </p>
+        <div class="links">
+          &lt;img src="https://picsum.photos/200/300?random=1"&gt;<br />
+          &lt;img src="https://picsum.photos/200/300?random=2"&gt;
+        </div>
+        <p>
+          If you need a file ending, you can add <code>.jpg</code>to the end of
+          the url.
+        </p>
+
+        <div>
+          <pre><a class="no__underline" href="#">https://picsum.photos/200/300.jpg</a></pre>
+        </div>
+
+        <p>
+          To get an image in the WebP format, you can add <code>.webp</code> to the end of the url.</p>
+
+        <div>
+          <pre><a class="no__underline" href="#"
+            >https://picsum.photos/200/300.webp</a></pre>
+        </div>
+      </div>
+
+      <div class="image__view">
+        <img src="./image/tower.jpg" class="img" alt="A tower" />
+      </div>
+
+      <!-- start of row -->
+      <div class="specific__image__width--2">
+        <div class="box__shadow">
+          <pre class="specific__image__width__code--box">
+[
+   {
+      "id": "0",
+      "author": "Alejandro Escamilla",
+      "width": 5616,
+      "height": 3744,
+      "url": "https://unsplash.com/...",
+      "download_url": "https://picsum.photos/..."
+   }
+]</pre>
+        </div>
+      </div>
+
+      <div class="specific__image__width--2">
+        <h2>List Images</h2>
+        <p>Get a list of images by using the <code>/v2/list</code> endpoint.</p>
+
+        <pre><a class="no__underline" href="#">https://picsum.photos/v2/list</a></pre>
+        <p>The API will return 30 items per page by default.</p>
+        <p>To request another page, use the <code>?page</code> parameter.</p>
+        <p>
+          To change the amount of the items per page, use the
+          <code>?limit</code> parameter.
+        </p>
+        <!-- <div class="links"> -->
+        <pre><a class="no__underline" href="#">https://picsum.photos/v2/list?page=2&amp;limit=100</a></pre>
+        <!-- </div> -->
+        <p>
+          The <code>Link</code> header includes pagination information about the
+          next/previous pages
+        </p>
+      </div>
+
+      <!-- start of row -->
+      <div class="specific__image__width">
+        <h2>Image Details</h2>
+        <p>
+          Get information about a specific image by using the
+          <code>/id/{id}/info</code> endpoint.
+        </p>
+        <!-- <div class="links"> -->
+        <p class="links">
+          <a class="no__underline" href="#">https://picsum.photos/id/0/info</a>
+        </p>
+        <!-- </div> -->
+
+        <p>
+          You can find out the ID of an image by looking at the
+          <code>Picsum-ID</code> header, or the <code>User Comment</code> field in
+          the EXIT metadata.
+        </p>
+      </div>
+      
+      <div class="specific__image__width">
+        <pre class="specific__image__width__code--box">
+{
+       "id": "0",
+       "author": "Alejandro Escamilla",
+       "width": 5616,
+       "height": 3744,
+       "url": "https://unsplash.com/...",
+       "download_url": "https://picsum.photos/..."
+}
+</pre>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer section -->
+  <footer class="footer">
+    <div class="footer__content">
+      <!-- <div class="sponsor"> -->
+        <p><a href="#"><img class="sponsor__content" alt="Powered by DigitalOcean" src="./image/digital logo.png"></a>
+        </p>
+
+        <p><a href="#"><img class="footer__sponsor--two" alt="CDN provided by Cloudflare"
+              src="./image/cloudflare.png" /></p>
+      <!-- </div> -->
+
+      <p class="sponsor__text">Created by <a class="no__underline" href="#">David Marby</a> &
+        <a class="no__underline" href="#">Nijiko Yonskai</a>
+      </p>
+      <p><a class="no__underline" href="#">Source</a></p>
+      
+      <p class="sponsor__text">Having trouble? Poke <a class="no__underline" href="#">@DMarby </a>on Twitter</p>
+      <p class="sponsor__text">Images from <a class="no__underline" href="#">Unsplash</a></p>
+    </div>
+  </footer>
+</body>
+</html>

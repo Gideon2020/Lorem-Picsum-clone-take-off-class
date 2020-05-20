@@ -1,0 +1,253 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1.15;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  position: relative;
+  width: 42px;
+  margin-right: 10px;
+  top: 7px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 4em;
+}
+
+.main__title {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  color: #000;
+  font-size: 2.625rem;
+  display: inline-block;
+  margin: 0;
+}
+
+.subtitle {
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: sans-serif;
+  color: #000;
+  margin: 12px 0;
+}
+
+.flex__row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.wrap__left__inner {
+  background: #f4f7fc;
+  max-width: 340px;
+  margin-top: 2em;
+  padding: 20px;
+}
+
+.wrap__left__inner img {
+  max-width: 130px;
+  background: #fff;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.carbon__wrap--text {
+  font-size: 0.875rem;
+  font-family: "open sans", sans-serif;
+  color: #333;
+  font-weight: 550;
+  padding-right: 7em;
+}
+
+.carbon__poweredby {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.6875rem;
+}
+
+.image__view,
+.wrap__right,
+.img {
+  width: 100%;
+  max-width: 510px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25),
+    0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
+}
+
+code {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  padding: 4px 6px;
+  font-size: 0.875rem;
+  color: hsl(0, 0%, 23.7%);
+  background-color: hsl(0, 0%, 94.9%);
+  border-radius: 4px;
+}
+
+.no__underline {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #386bf3;
+  font-weight: 400;
+}
+
+.select__image {
+  background: #f4f7fc;
+  text-align: center;
+  margin-top: 6em;
+  margin-bottom: 8em;
+}
+
+.image__width__search {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 5em 0;
+}
+
+.section__title {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.select__image__size p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6em;
+  font-family: "open sans", sans-serif;
+}
+
+.break__words {
+  font-size: 0.875rem;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.image__view {
+  margin-bottom: 10em;
+}
+
+.specific__image__width {
+  /* padding-bottom: 10em; */
+  width: 510px;
+  margin-bottom: 8em;
+}
+
+.specific__image__width--long {
+  width: 510px;
+  /* padding-bottom: 10em; */
+}
+
+.specific__image__width--2 {
+  width: 510px;
+  padding-bottom: 6em;
+  margin-top: 8em;
+  /* margin-bottom: 6em; */
+}
+
+.specific__image__width h2,
+.specific__image__width--long h2 {
+  font-family: 'roboto', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 550;
+  margin-bottom: 0.5em;
+}
+
+.specific__image__width p,
+.specific__image__width--long p,
+.specific__image__width--2 p {
+  line-height: 1.6;
+  font-size: .875rem;
+  font-family: "open sans", sans-serif;
+}
+
+pre {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875rem;
+  background-color: hsl(210, 14.3%, 93.3%);
+  border-radius: 4px;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.specific__image__width__code--box {
+  box-shadow: 0 0 0 1px hsla(240, 30.1%, 28%, 0.05),
+    0 2px 5px 0 hsla(240, 30.1%, 28%, 0.1),
+    0 1px 1px 0 hsla(0, 0%, 0%, 0.07);
+  background: white;
+  padding: 18px;
+}
+
+.links {
+  font-size: 14px;
+  background-color: hsl(210, 14.3%, 93.3%);
+  border-radius: 4px;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.code--box {
+  box-shadow: 0 0 0 1px hsla(240, 30.1%, 28%, 0.05), 0 2px 5px 0 hsla(240, 30.1%, 28%, 0.1), 0 1px 1px 0 hsla(0, 0%, 0%, 0.07);
+  background: white;
+  padding: 18px;
+  font-size: 0.875rem;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  color: #fff;
+}
+
+.footer__content {
+  padding: 4em 0;
+  max-width: 460px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.sponsor__content {
+  width: 230px;
+  float: left;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.767);
+  font-weight: 600;
+}
+
+footer a {
+  color: hsla(0, 100%, 100%, 0.8);
+}
